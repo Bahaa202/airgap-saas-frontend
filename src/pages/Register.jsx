@@ -3,7 +3,7 @@ import { useSearchParams, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { PLANS } from "../plans";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "";
 
 export default function Register() {
   const [searchParams] = useSearchParams();

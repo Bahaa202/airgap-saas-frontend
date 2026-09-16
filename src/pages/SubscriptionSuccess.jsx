@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "";
 
 export default function SubscriptionSuccess() {
   const [searchParams] = useSearchParams();

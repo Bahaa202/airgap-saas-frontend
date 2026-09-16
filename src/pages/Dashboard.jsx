@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "";
 
 export default function Dashboard({ apiKey }) {
   const [ocpVersion, setOcpVersion] = useState("4.16");

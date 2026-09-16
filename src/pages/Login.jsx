@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "";
 
 export default function Login({ onLogin }) {
   const [apiKey, setApiKey] = useState("");
